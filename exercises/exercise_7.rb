@@ -10,6 +10,8 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+# myboy = Employee.create(first_name: "Ferry", last_name: "Tayle", hourly_rate: 60, store_id: 20)
+# puts myboy.errors.full_messages
 puts "What do you want the new store to be called?"
 print "> "
 store_name = $stdin.gets.chomp
